@@ -1,0 +1,58 @@
+
+.container {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    height: 370px;
+    width: 370px;
+    margin-top: 3%;
+    background: linear-gradient(to bottom, #3366cc 0%, #ccffcc 100%);
+    border-radius: 4px;
+}
+
+h3{
+    color: #fff;
+}
+
+p{
+   text-align: left;
+   margin:10px 25px;
+   font-weight: 500;
+}
+.row{
+    margin: 30px 0;
+}
+.twelve-columns{
+    margin:  10px;
+    padding: 0;
+    
+}
+.twelve-columns input{
+    margin: 0;
+    padding: 10px;
+    width: 80%;
+    border-radius: 4px;
+    border: none;
+}
+.btn{
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    border-radius: 4px;
+    border: none;
+    background-color: burlywood;
+    font-size: 17px;
+}
+.btn:hover{
+    background-color: chocolate;
+    color: #fff;
+}
+.btn-signup{
+    text-decoration: none;
+}
+.error_label{
+    color: red;
+    font-size: 16px;
+}
